@@ -56,7 +56,7 @@ function binary.open(filename, endian)
         local fmt= ({...})[1]
 
         if fmt == nil then
-            return self.fh:read()
+            return self.__file:read()
         elseif type(fmt) == 'string' and fmt:find('^u%d+$') then
             local _, _, nbytes= fmt:find('^u(%d+)$')
 
@@ -86,11 +86,11 @@ function binary.open(filename, endian)
     end
 
     function object:close()
-        self.__file:close()
+        return self.__file:close()
     end
 
     function object:seek(whence, offset)
-        self.__file:seek(whence, offset)
+        return self.__file:seek(whence, offset)
     end
 
     return object
