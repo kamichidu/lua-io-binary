@@ -13,7 +13,7 @@ You can install this module using luarocks.
 
 1. Install io-binary
 
-    `luarocks --local install https://raw.githubusercontent.com/kamichidu/lua-io-binary/master/io-binary-v0.0.0-1.rockspec`
+    `luarocks --local install https://raw.githubusercontent.com/kamichidu/lua-io-binary/master/io-binary-0.0.0-1.rockspec`
 
 
 Usage
