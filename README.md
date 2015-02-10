@@ -1,4 +1,4 @@
-io-binary
+io-binary [![Build Status](https://travis-ci.org/kamichidu/lua-io-binary.svg?branch=master)](https://travis-ci.org/kamichidu/lua-io-binary)
 ========================================================================================================================
 This is a lua module provides binary file operation.
 
